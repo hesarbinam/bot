@@ -1,6 +1,6 @@
 <?php
 
-	// https://api.telegram.org/bot1244263877:AAE7yiPwxxnuremNPSKsU4hVsMY8c1l5urk/setwebhook?url=http://mohsenkh.ss0.ir/bot/mohsen_bt.php
+	// https://api.telegram.org/bot1244263877:AAE7yiPwxxnuremNPSKsU4hVsMY8c1l5urk/setwebhook?url=https://raw.githubusercontent.com/hesarbinam/bot/main/mohsen_bt.php
 	$update = file_get_contents("php://input");
 	
 	$update_array = json_decode($update , true);
